@@ -2,7 +2,7 @@ import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from "framer-motion";
 
-import hero from '../assets/hero.png';
+import hero from '../assets/hero.jpg';
 import { fadeIn, staggerContainer } from '../utils/motion';
 
 
