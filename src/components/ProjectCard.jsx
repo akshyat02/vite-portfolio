@@ -9,7 +9,7 @@ const ProjectCard = ({ imageSrc, title, link }) => {
                     <div className="opacity-90 group-hover:opacity-1 group-hover:scale-105 transition ease-in-out duration-300">
                         <img className="w-full h-48 object-cover rounded-lg" src={imageSrc} alt={title} />
                         {/* <img className="w-full h-48 object-cover rounded-lg" src={imag} alt={title} /> */}
-                        {console.log(imageSrc)}
+                        {/* {console.log(imageSrc)} */}
                     </div>
                     <div className="py-4 px-6">
                         <h1 className="lg:text-2xl text-xl font-semibold text-gray-800 group-hover:text-white transition ease-in-out duration-300">{title}</h1>
